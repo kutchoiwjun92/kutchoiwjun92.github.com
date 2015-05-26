@@ -4,7 +4,29 @@ title:  "Welcome to Jekyll!"
 date:   2015-05-13 01:39:48
 categories: jekyll update
 ---
+#header
+###header
+
+##list
+1. first
+2. second
+--* 123
+--1 123
+
+* wow
++ wow
+- wow
+
+## * impact
+
+**bold**
+*itally*
+
+## link
+[naver](www.naver.com)
+
 ***Hello*** I'm *kim*hyoungjong. <i class= "icon-cog"></i>
+
 
 {% highlight ruby %}
 def print_hi(name)
