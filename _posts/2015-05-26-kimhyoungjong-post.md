@@ -10,20 +10,39 @@ categories: jekyll update
 ##list
 1. first
 2. second
---* 123
---1 123
+
+..* 123
+..1 123
 
 * wow
 + wow
 - wow
 
-## * impact
+##  impact
 
 **bold**
 *itally*
 
 ## link
 [naver](www.naver.com)
+
+this is [same]
+
+[same] : www.naver.com
+
+## image
+
+image
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title text 1")
+
+## table
+
+|table     |Are       |Cool    |
+|__________|:________:|_______:|
+|abc       |dfg       |hij     |
+
+
+
 
 ***Hello*** I'm *kim*hyoungjong. <i class= "icon-cog"></i>
 
