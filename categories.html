@@ -1,22 +1,17 @@
 ---
 layout: page
-title: Categories
+title: CPU
 header: Posts By Category
 group: navigation
 ---
-{% include JB/setup %}
 
-<ul class="tag_box inline">
-  {% assign categories_list = site.categories %}
-  {% include JB/categories_list %}
-</ul>
+<h2><li><span> (보급형) </span> <a href="/cpu-1/2015/05/31/cpu-1">인텔 코어i5-4세대 4690</a></li></h2>
+
+<h2><li><span> (고급형) </span> <a href="/cpu-2/2015/05/31/cpu-2">인텔 코어i7-4세대 4790</a></li></h2>
+
+<h2><li><span> (보급형) </span> <a href="/cpu-3/2015/05/31/cpu-3">AMD A8 7600</a></li></h2>
+
+<h2><li><span> (고급형) </span> <a href="/cpu-4/2015/05/31/cpu-4">AMD A10 7700K</a></li></h2>
 
 
-{% for category in site.categories %} 
-  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
-  <ul>
-    {% assign pages_list = category[1] %}  
-    {% include JB/pages_list %}
-  </ul>
-{% endfor %}
 
