@@ -1,9 +1,10 @@
 ---
 layout: page
-title: SSD & HDD
-header: Posts By Tag
+title : Archive
+header : Post Archive
 group: navigation
 ---
-<h1> cpu </h1>
+{% include JB/setup %}
 
-<li><span> 인텔 </span> &raquo; <a href="/lessons/2011/12/29/jekyll-introduction">Jekyll Introduction</a></li>
+{% assign posts_collate = site.posts %}
+{% include JB/posts_collate %}
