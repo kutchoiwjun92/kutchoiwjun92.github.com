@@ -1,1 +1,4 @@
-4
+---
+layout: post
+category : board-4
+---
