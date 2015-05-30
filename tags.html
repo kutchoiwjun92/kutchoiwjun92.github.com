@@ -6,11 +6,5 @@ group: navigation
 ---
 {% include JB/setup %}
 
-   {% for tag in site.tags %}    
-<h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
-
-  <ul>
-        {% assign pages_list = tag[1] %} 
-        {% include JB/pages_list %}
-  </ul>
+<li><span> 인텔 </span> &raquo; <a href="/lessons/2011/12/29/jekyll-introduction">Jekyll Introduction</a></li>
 {% endfor %}
