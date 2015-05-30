@@ -3,7 +3,7 @@ layout: post
 category : board-1
 ---
 
-![alt text]( 주소 )
+![alt text](https://github.com/kutchoiwjun92/kutchoiwjun92.github.com/blob/master/image/board-1.jpg?raw=true)
 
 ## 제품명 : ** (제품명)  **
 
