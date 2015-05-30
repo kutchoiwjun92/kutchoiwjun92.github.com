@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Main Board
-header: Posts By Tag
+title : Main Board
+header : Post Archive
 group: navigation
 ---
 {% include JB/setup %}
@@ -12,5 +12,8 @@ group: navigation
 </ul>
 
 
-
+  <ul>
+    {% assign pages_list = tag[1] %}  
+    {% include JB/pages_list %}
+  </ul>
 {% endfor %}
