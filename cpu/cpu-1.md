@@ -1,4 +1,4 @@
 ---
 layout: post
-category : cpu-3
+category : cpu-1
 ---
