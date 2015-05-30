@@ -4,34 +4,44 @@ title : 테스트입니다.
 ---
 
 <div class="home">
+  <head>
+    <title>테스트1</title>
+    <!-- 테스트 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  
+  <body>
+    <h1>테스트1</h1>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+  //<h1 class="page-heading">posts</h1>
 
-  <h1 class="page-heading">posts</h1>
+  //<ul class="post-list">
+  //  {% for post in site.posts %}
+  //    <li>
+  //      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  //      <h2>
+  //        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  //      </h2>
+  //    </li>
+  //  {% endfor %}
+  //</ul>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  //<h1 class="page-heading">포스트</h1>
 
-  <h1 class="page-heading">포스트</h1>
+  //<ul class="post-list">
+  //  {% for post in site.posts %}
+  //    <li>
+  //      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  //      <h2>
+  //        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  //      </h2>
+  //    </li>
+  //  {% endfor %}
+  //</ul>
+  //<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
