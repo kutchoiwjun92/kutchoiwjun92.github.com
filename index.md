@@ -4,4 +4,4 @@ title: 컴퓨터 부품
 tagline: Supporting tagline
 ---
 
-![alt jpg](https://github.com/kutchoiwjun92/kutchoiwjun92.github.com/blob/master/home%20image.JPG)
+![alt text](https://github.com/kutchoiwjun92/kutchoiwjun92.github.com/blob/master/home_image.JPG)
