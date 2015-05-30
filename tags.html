@@ -6,6 +6,11 @@ group: navigation
 ---
 {% include JB/setup %}
 
+   {% for tag in site.tags %}    
+<h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
 
-<h1>q</h1>
+  <ul>
+        {% assign pages_list = tag[1] %} 
+        {% include JB/pages_list %}
+  </ul>
 {% endfor %}
