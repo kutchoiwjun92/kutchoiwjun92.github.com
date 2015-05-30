@@ -3,11 +3,6 @@ layout: post
 category : vga-2
 ---
 
----
-layout: post
-category : vga
----
-
 ![alt text]( 주소 )
 
 ## 제품명 : ** (제품명)  **
