@@ -1,2 +1,4 @@
-2
-
+---
+layout: post
+category : cpu-2
+---
