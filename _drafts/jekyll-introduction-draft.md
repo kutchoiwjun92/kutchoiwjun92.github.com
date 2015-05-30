@@ -8,4 +8,4 @@ tags : [intro, beginner, jekyll, tutorial]
 {% include JB/setup %}
 
 
-This is an example of a draft. Read more here: [http://jekyllrb.com/docs/drafts/](https://www.naver.com)
+This is an example of a draft. Read more here: [www.naver.com](https://www.naver.com)
