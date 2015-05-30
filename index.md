@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hello borld!
+title: 컴퓨터 부품
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
