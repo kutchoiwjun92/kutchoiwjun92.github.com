@@ -1,4 +1,4 @@
 ---
 layout: post
-category : board-1
+category : board-2
 ---
